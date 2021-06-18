@@ -1,0 +1,138 @@
+// --------- Header --------- //
+
+// Logo Nav Wrap
+$logoNavWrapFixed-bgc: #2f4c50;
+$logoNavWrapFixed-bxsw: 0 3px 10px rgba(0, 0, 0, .2);
+
+// Logo
+$logo-fontFamily: "OPTIBaskerVille-Italic";
+$logo-fontSize: 4.43rem;
+$logo-lineHeight: 3.96rem;
+$logo-color: #fff;
+$logo-opacity: 0.68;
+
+$logoLink-color: #fff;
+$logoLink-textDecoration: none;
+
+$logoLinkBefore-bgc: #fff;
+
+$logoSpanBefore-bgc: #fff;
+
+// Navigation
+$navLink-bgc: #4f5b61;
+$navLink-color: #fff;
+$navLink-fontSize: 1.5em;
+$navLink-fontWeight: 300;
+$navLink-textDecoration: none;
+
+$navLinkHover-textDecoration: none;
+$navLinkHover-borderBottom: 3px solid #4b7980;
+
+// Nav-Toggle
+$navToggleItem-bgc: #fff;
+
+// Slider
+$sliderTitle-fontSize: 3.06em;
+$sliderTitle-fontWeight: 300;
+$sliderTitle-color: #fff;
+
+$sliderText-fontSize: 1.81em;
+$sliderText-fontWeight: 400;
+$sliderText-color: #fff;
+
+$tryDemo-width: 8.62rem;
+$tryDemo-height: 2.37rem;
+$tryDemo-bgc: #206545;
+$tryDemo-border: 4px solid rgba(0, 0, 0, 0.37);
+$tryDemo-fontSize: 1.43em;
+$tryDemo-color: #fff;
+
+$tryDemoHover-color: #224d39;
+
+// Tabs
+$tabsLi-textAlign: center;
+$tabsLi-color: #5c5b5b;
+
+$tabsLiNotActive-background: #e3e3e3;
+$tabsLiNotActive-borderColor: #e5e5e5;
+
+$tabsLiActive-background: #fff;
+$tabsLiActive-fontWeight: 700;
+$tabsLiActive-color: #5f5f5f;
+$tabsLiActive-boxShadow: 0px 0 3px 0px rgba(50, 50, 50, 0.75);
+
+$TabsContent-background: #fff;
+$TabsContent-boxShadow: 0px 0 3px 0px rgba(50, 50, 50, 0.75);
+$TabsContent-borderRadius: 5px;
+
+$tabsContentTitle-fontSize: 1.83em;
+$tabsContentTitle-fontWeight: 300;
+$tabsContentTitle-color: #4f4f4f;
+
+// Why Choose
+$whyChooseTextBlockTitle-fontFamily: "Segoe WPN";
+$whyChooseTextBlockTitle-fontSize: 33px;
+$whyChooseTextBlockTitle-color: #4f4f4f;
+
+$whyChooseTextBlockP-fontFamily: "Univers CE";
+$whyChooseTextBlockP-fontSize: 14px;
+$whyChooseTextBlockP-lineHeight: 25px;
+$whyChooseTextBlockP-color: #8a8888;
+
+// Login & Subscribe
+$loginSubscribe-BorderTop: 1px solid #e5e5e5;
+
+$login-subscribe-BorderRadius: 4px;
+
+$login-bgc: #e67624;
+
+$loginFormTitle-subscribeFormTitle-fontFamily: "Segoe WP";
+$loginFormTitle-subscribeFormTitle-fontSize: 24px;
+$loginFormTitle-subscribeFormTitle-color: #fff;
+
+$loginFormInputs-fontFamily: "Segoe WPN";
+$loginFormInputs-fontSize: 1rem;
+$loginFormInputs-color: #4f4f4f;
+
+$loginFormInputsFocus-border: 2px solid rgba(23, 53, 150, 0.57);
+
+$loginSubscribeSubmits-bgc: #444;
+$loginSubscribeSubmits-fontSize: 1rem;
+$loginSubscribeSubmits-color: #fff;
+
+$loginSubscribeSubmitsHover-color: #656565;
+$loginSubscribeSubmitsFocus-border: 2px solid rgba(23, 53, 150, 0.57);
+
+$subscribe-bgc: #01d4f3;
+
+$subscribeFormSubmit: #029bb1;
+
+// Footer
+$aboutUsTitle-testimonialsTitle-fontFamily: "Segoe WP";
+$aboutUsTitle-testimonialsTitle-fontSize: 1.37em;
+$aboutUsTitle-testimonialsTitle-color: #fff;
+
+$aboutUsItem-lineHeight: 22px;
+$aboutUsItem-color: #fff;
+$aboutUsItem-opacity: .5;
+$aboutUsItem-textDecoration: none;
+
+$aboutUsItemHover-color: #777;
+
+$testimonialsText-testimonialsAuthor-lineHeight: 22px;
+$testimonialsText-testimonialsAuthor-color: #fff;
+$testimonialsText-testimonialsAuthor-opacity: .5;
+
+$testimonialsAuthor-fontWeight: 700;
+
+$logoFooter-fontFamily: "OPTIBaskerVille-Italic";
+$logoFooter-fontSize: 4.43rem;
+$logoFooter-lineHeight: 3.96rem;
+$logoFooter-opacity: 0.22;
+$logoFooter-color: #fff;
+
+$logoFooterLink-color: #fff;
+$logoFooterLink-textDecoration: none;
+
+$logoFooterLinkBefore-bgc: #fff;
+$logoFooterFirstSpanBefore-bgc: #fff;

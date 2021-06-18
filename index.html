@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/bxslider.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Leo - Flexbox</title>
+</head>
+<body>
+<!-- Header -->
+<header class="header">
+  <div class="container">
+
+    <!-- Logo & Navigation -->
+    <div class="wrapper">
+      <div class="logo-nav-wrap" id="logo-nav-wrap">
+
+        <div class="logo">
+          <a href="#" class="logo__link">
+            <span class="logo__span">Leo</span>
+          </a>
+        </div>
+
+        <div class="nav-wrapper">
+          <nav class="nav" id="nav">
+            <a href="#" class="nav__link">Solutions</a>
+            <a href="#" class="nav__link">Products</a>
+            <a href="#" class="nav__link">Portfolio</a>
+            <a href="#" class="nav__link">Contact</a>
+          </nav>
+        </div>
+
+        <button class="nav-toggle" id="nav-toggle" type="button">
+          <span class="nav-toggle__item">Menu</span>
+        </button>
+      </div> <!-- /.logo-nav-wrap -->
+    </div> <!-- /.wrapper -->
+
+    <!-- Carousel -->
+    <div class="slider-wrap">
+      <div class="data-slider" data-slider>
+
+        <div class="slider">
+          <picture class="slider__img">
+            <source srcset="img/mobile/mobile-coffee.webp 1x, img/mobile/retina/mobile-coffee@2x.webp 2x" type="image/webp" media="(max-width:599px)">
+            <source srcset="img/mobile/mobile-coffee.png 1x, img/mobile/retina/mobile-coffee@2x.png 2x" type="image/png" media="(max-width:599px)">
+
+            <source srcset="img/coffee.webp 1x, img/retina/coffee@2x.webp 2x" type="image/webp" media="(min-width:600px)">
+            <source srcset="img/coffee.png 1x, img/retina/coffee@2x.png 2x" type="image/png" media="(min-width:600px)">
+
+            <img src="img/coffee.png" srcset="img/retina/coffee@2x.png 2x" alt="coffee.png">
+          </picture>
+          <div class="slider__content">
+            <div class="slider__title">Introducing</div>
+            <div class="slider__text">Something hot......</div>
+            <button class="try-demo">Try Demo</button>
+          </div>
+        </div> <!-- /.slider -->
+
+        <div class="slider">
+          <picture class="slider__img">
+            <source srcset="img/mobile/mobile-coffee.webp 1x, img/mobile/retina/mobile-coffee@2x.webp 2x" type="image/webp" media="(max-width:599px)">
+            <source srcset="img/mobile/mobile-coffee.png 1x, img/mobile/retina/mobile-coffee@2x.png 2x" type="image/png" media="(max-width:599px)">
+
+            <source srcset="img/coffee.webp 1x, img/retina/coffee@2x.webp 2x" type="image/webp" media="(min-width:600px)">
+            <source srcset="img/coffee.png 1x, img/retina/coffee@2x.png 2x" type="image/png" media="(min-width:600px)">
+
+            <img src="img/coffee.png" srcset="img/retina/coffee@2x.png 2x" alt="coffee.png">
+          </picture>
+          <div class="slider__content">
+            <div class="slider__title">Introducing</div>
+            <div class="slider__text">Something hot......</div>
+            <div class="slider__btn">
+              <button class="try-demo">Try Demo</button>
+            </div>
+          </div>
+        </div> <!-- /.slider -->
+
+      </div> <!-- / data-slider -->
+    </div> <!-- /.slider-wrap -->
+
+  </div> <!-- /.container -->
+</header>
+
+
+<!-- Tabs -->
+<section class="tabs-section">
+  <div class="container">
+
+    <div class="tabs">
+
+      <ul class="tabs__caption">
+        <li>
+          <picture class="tabs__img">
+            <source srcset="img/mobile/mobile-phone.webp 1x, img/mobile/retina/mobile-phone@2x.webp 2x" type="image/webp" media="(max-width:599px)">
+            <source srcset="img/mobile/mobile-phone.png 1x, img/mobile/retina/mobile-phone@2x.png 2x" type="image/png" media="(max-width:599px)">
+
+            <source srcset="img/phone.webp 1x, img/retina/phone@2x.webp 2x" type="image/webp" media="(min-width:600px)">
+            <source srcset="img/phone.png 1x, img/retina/phone@2x.png 2x" type="image/png" media="(min-width:600px)">
+
+            <img src="img/phone.png" srcset="img/retina/phone@2x.png 2x" alt="phone.png">
+          </picture>
+          <span class="tabs__title tabs__title_bigger">Responsive</span>
+          <span class="tabs__title tabs__title_smaller">Websites</span>
+        </li>
+        <li class="active">
+          <picture class="tabs__img">
+            <source srcset="img/mobile/mobile-s-cart.webp 1x, img/mobile/retina/mobile-s-cart@2x.webp 2x" type="image/webp" media="(max-width:599px)">
+            <source srcset="img/mobile/mobile-s-cart.png 1x, img/mobile/retina/s-cart@2x.png 2x" type="image/png" media="(max-width:599px)">
+
+            <source srcset="img/s-cart.webp 1x, img/retina/s-cart@2x.webp 2x" type="image/webp" media="(min-width:600px)">
+            <source srcset="img/s-cart.png 1x, img/retina/s-cart@2x.png 2x" type="image/png" media="(min-width:600px)">
+
+            <img src="img/s-cart.png" srcset="img/retina/s-cart@2x.png 2x" alt="s-cart.png">
+          </picture>
+          <span class="tabs__title tabs__title_bigger">e Commerce</span>
+          <span class="tabs__title tabs__title_smaller">Websites</span>
+        </li>
+        <li>
+          <picture class="tabs__img">
+            <source srcset="img/mobile/mobile-world.webp 1x, img/mobile/retina/mobile-world@2x.webp 2x" type="image/webp" media="(max-width:599px)">
+            <source srcset="img/mobile/mobile-world.png 1x, img/mobile/retina/mobile-world@2x.png 2x" type="image/png" media="(max-width:599px)">
+
+            <source srcset="img/world.webp 1x, img/retina/world@2x.webp 2x" type="image/webp" media="(min-width:600px)">
+            <source srcset="img/world.png 1x, img/retina/world@2x.png 2x" type="image/png" media="(min-width:600px)">
+
+            <img src="img/world.png" srcset="img/retina/world@2x.png 2x" alt="world.png">
+          </picture>
+          <span class="tabs__title tabs__title_bigger">Daily blog</span>
+          <span class="tabs__title tabs__title_smaller">Websites</span>
+        </li>
+        <li>
+          <picture class="tabs__img">
+            <source srcset="img/mobile/mobile-search.webp 1x, img/mobile/retina/mobile-search@2x.webp 2x" type="image/webp" media="(max-width:599px)">
+            <source srcset="img/mobile/mobile-search.png 1x, img/mobile/retina/mobile-search@2x.png 2x" type="image/png" media="(max-width:599px)">
+
+            <source srcset="img/search.webp 1x, img/retina/search@2x.webp 2x" type="image/webp" media="(min-width:600px)">
+            <source srcset="img/search.png 1x, img/retina/search@2x.png 2x" type="image/png" media="(min-width:600px)">
+
+            <img src="img/search.png" srcset="img/retina/search@2x.png 2x" alt="search.png">
+          </picture>
+          <span class="tabs__title tabs__title_bigger">Search based</span>
+          <span class="tabs__title tabs__title_smaller">Websites</span>
+        </li>
+      </ul> <!-- /.tabs__caption -->
+
+      <div class="tabs-content active">
+        <picture class="tabs-content__img">
+          <source srcset="img/mobile/mobile-ipad.webp 1x, img/mobile/retina/mobile-ipad@2x.webp 2x" type="image/webp" media="(max-width:599px)">
+          <source srcset="img/mobile/mobile-ipad.png 1x, img/mobile/retina/mobile-ipad@2x.png 2x" type="image/png" media="(max-width:599px)">
+
+          <source srcset="img/ipad.webp 1x, img/retina/ipad@2x.webp 2x" type="image/webp" media="(min-width:600px)">
+          <source srcset="img/ipad.png 1x, img/retina/ipad@2x.png 2x" type="image/png" media="(min-width:600px)">
+
+          <img src="img/ipad.png" srcset="img/retina/ipad@2x.png 2x" alt="ipad.png">
+        </picture>
+        <h1 class="tabs-content__title">1 - Lorem Ipsum is simply dummy text</h1>
+        <div class="tabs-content__text">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        </div>
+      </div>
+
+      <div class="tabs-content">
+        <picture class="tabs-content__img">
+          <source srcset="img/mobile/mobile-ipad.webp 1x, img/mobile/retina/mobile-ipad@2x.webp 2x" type="image/webp" media="(max-width:599px)">
+          <source srcset="img/mobile/mobile-ipad.png 1x, img/mobile/retina/mobile-ipad@2x.png 2x" type="image/png" media="(max-width:599px)">
+
+          <source srcset="img/ipad.webp 1x, img/retina/ipad@2x.webp 2x" type="image/webp" media="(min-width:600px)">
+          <source srcset="img/ipad.png 1x, img/retina/ipad@2x.png 2x" type="image/png" media="(min-width:600px)">
+
+          <img src="img/ipad.png" srcset="img/retina/ipad@2x.png 2x" alt="ipad.png">
+        </picture>
+        <h1 class="tabs-content__title">2 - Lorem Ipsum is simply dummy text</h1>
+        <div class="tabs-content__text">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        </div>
+      </div>
+
+      <div class="tabs-content">
+        <picture class="tabs-content__img">
+          <source srcset="img/mobile/mobile-ipad.webp 1x, img/mobile/retina/mobile-ipad@2x.webp 2x" type="image/webp" media="(max-width:599px)">
+          <source srcset="img/mobile/mobile-ipad.png 1x, img/mobile/retina/mobile-ipad@2x.png 2x" type="image/png" media="(max-width:599px)">
+
+          <source srcset="img/ipad.webp 1x, img/retina/ipad@2x.webp 2x" type="image/webp" media="(min-width:600px)">
+          <source srcset="img/ipad.png 1x, img/retina/ipad@2x.png 2x" type="image/png" media="(min-width:600px)">
+
+          <img src="img/ipad.png" srcset="img/retina/ipad@2x.png 2x" alt="ipad.png">
+        </picture>
+        <h1 class="tabs-content__title">3 - Lorem Ipsum is simply dummy text</h1>
+        <div class="tabs-content__text">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+          <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+      </div>
+
+      <div class="tabs-content">
+        <picture class="tabs-content__img">
+          <source srcset="img/mobile/mobile-ipad.webp 1x, img/mobile/retina/mobile-ipad@2x.webp 2x" type="image/webp" media="(max-width:599px)">
+          <source srcset="img/mobile/mobile-ipad.png 1x, img/mobile/retina/mobile-ipad@2x.png 2x" type="image/png" media="(max-width:599px)">
+
+          <source srcset="img/ipad.webp 1x, img/retina/ipad@2x.webp 2x" type="image/webp" media="(min-width:600px)">
+          <source srcset="img/ipad.png 1x, img/retina/ipad@2x.png 2x" type="image/png" media="(min-width:600px)">
+
+          <img src="img/ipad.png" srcset="img/retina/ipad@2x.png 2x" alt="ipad.png">
+        </picture>
+        <h1 class="tabs-content__title">4 - Lorem Ipsum is simply dummy text</h1>
+        <div class="tabs-content__text">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+          <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        </div>
+      </div>
+
+    </div> <!-- /.tabs -->
+
+  </div> <!-- /.container -->
+</section>
+
+<!-- Why Choose -->
+<section class="why-choose">
+  <div class="container">
+
+    <div class="why-choose-wrap">
+      <div class="why-choose__img">
+        <picture>
+          <source srcset="img/mobile/mobile-screen-shot.webp 1x, img/mobile/retina/mobile-screen-shot@2x.webp 2x" type="image/webp" media="(max-width:599px)">
+          <source srcset="img/mobile/mobile-screen-shot.png 1x, img/mobile/retina/mobile-screen-shot@2x.png 2x" type="image/png" media="(max-width:599px)">
+
+          <source srcset="img/screen-shot.webp 1x, img/retina/screen-shot@2x.webp 2x" type="image/webp" media="(min-width:600px)">
+          <source srcset="img/screen-shot.png 1x, img/retina/screen-shot@2x.png 2x" type="image/png" media="(min-width:600px)">
+
+          <img src="img/screen-shot.png" srcset="img/retina/screen-shot@2x.png 2x" alt="screen-shot.png">
+        </picture>
+      </div>
+      <div class="why-choose-text-block">
+        <h2 class="why-choose-text-block__title">Why choose us ?</h2>
+          <p class="why-choose-text-block__p">Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+          <p class="why-choose-text-block__p">Lorem Ipsum has been the industry's standard dummy text ever</p>
+          <p class="why-choose-text-block__p">When an unknown printer took a galley of type and scrambled</p>
+          <p class="why-choose-text-block__p">It has survived not only five centuries, but also the leap into electronic</p>
+          <p class="why-choose-text-block__p">It was popularised in the 1960s with the release of Letraset sheets containing</p>
+          <p class="why-choose-text-block__p">More recently with desktop publishing software like Aldus PageMaker</p>
+      </div>
+    </div> <!-- /.why-choose-wrap -->
+
+  </div> <!-- /.container -->
+</section>
+
+<!-- Login & Subscribe -->
+<div class="login-subscribe">
+  <div class="container">
+
+     <div class="login-subscribe-wrap">
+      <div class="login">
+        <form action="/" class="login-form">
+          <h2 class="login-form__title">Member Login</h2>
+          <input class="login-form__login-input" type="text" name="name" placeholder="User Name" required>
+          <input class="login-form__pass-input" type="password" name="pass" placeholder="Password" required>
+          <button class="login-form__pass-submit" type="submit">Log me in</button>
+        </form>
+      </div>
+
+      <div class="subscribe">
+        <form action="/" class="subscribe-form">
+          <h2 class="subscribe-form__title">Subscribe to our weekly newsletter </h2>
+          <input class="subscribe-form__email" type="email" name="email" placeholder="email address" required>
+          <button class="subscribe-form__submit" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div> <!-- /.login-subscribe-wrap -->
+
+  </div> <!-- /.container -->
+</div> <!-- /.login-subscribe -->
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+
+    <div class="row-wrap">
+      <div class="first-row">
+        <div class="about-us-first">
+          <h3 class="about-us__title">About US</h3>
+          <a class="about-us__item" href="#">About us</a>
+          <a class="about-us__item" href="#">Why us</a>
+          <a class="about-us__item" href="#">Customer Stories</a>
+          <a class="about-us__item" href="#">Press Resources</a>
+          <a class="about-us__item" href="#">Press Releases</a>
+          <a class="about-us__item" href="#">Contact us</a>
+        </div>
+
+        <div class="about-us-second">
+         <h3 class="about-us__title">About US</h3>
+          <a class="about-us__item" href="#">About us</a>
+          <a class="about-us__item" href="#">Why us</a>
+          <a class="about-us__item" href="#">Customer Stories</a>
+          <a class="about-us__item" href="#">Press Resources</a>
+          <a class="about-us__item" href="#">Press Releases</a>
+          <a class="about-us__item" href="#">Contact us</a>
+        </div>
+      </div> <!-- /.first-row -->
+
+      <div class="second-row">
+
+        <div class="slider-wrapper">
+          <div class="bxslider">
+            <div class="testimonials__item">
+
+              <h3 class="testimonials__title">Testimonials</h3>
+              <div class="testimonials__arrows">
+                <div class="testimonials__arrows_left"></div>
+                <div class="testimonials__arrows_right"></div>
+              </div>
+
+              <p class="testimonials__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+              <p class="testimonials__author">Lorem Ipsum is simply Owner, <br> Lorem Ipsum</p>
+
+            </div>
+
+            <div class="testimonials__item">
+
+              <h3 class="testimonials__title">Testimonials</h3>
+              <p class="testimonials__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+              <p class="testimonials__author">Lorem Ipsum is simply Owner, <br> Lorem Ipsum</p>
+
+              <div class="testimonials__arrows">
+                <div class="testimonials__arrows_left"></div>
+                <div class="testimonials__arrows_right"></div>
+              </div>
+
+            </div>
+          </div> <!-- /.bxslider -->
+        </div> <!-- /.slider-wrapper -->
+
+        <div class="logo-footer-wrapper">
+          <div class="logo-footer">
+            <a href="#" class="logo-footer__link">
+              <span class="logo-footer__first-span">Leo</span>
+            </a>
+          </div>
+        </div>
+
+      </div>  <!-- /.second-row -->
+    </div> <!-- /.row-wrap -->
+
+  </div> <!-- /.container -->
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

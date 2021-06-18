@@ -1,0 +1,32 @@
+/* --------- Common Styles --------- */
+@font-face {
+  font-family: "OPTIBaskerVille-Italic";
+  src: url('../fonts/OPTIBaskerVille-Italic.otf');
+}
+
+@font-face {
+  font-family: 'Segoe WPN';
+  src: url('../fonts/SegoeWPN.woff');
+}
+
+@font-face {
+  font-family: 'Univers CE';
+  src: url('../fonts/Univers-CE-45-Light.ttf');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Segoe WPN';
+
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1020px;
+
+  margin: 0 auto;
+}
